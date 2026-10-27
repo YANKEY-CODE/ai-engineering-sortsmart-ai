@@ -2,7 +2,7 @@
 
 **System name:** ChatGPT (OpenAI)  
 **Assigned lab group:** Group 1 or 2 (**exact number to confirm**)  
-**Group members:** **[Enter your actual group members]**  
+**Group members (6):** Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi. **Note:** the lab handout states 4–5 students per group; obtain lecturer approval for six members.  
 **Observation date:** 27 October 2026  
 **Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Select 2–3 screenshots and upload them to `docs/evidence/` before submission.**
 
