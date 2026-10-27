@@ -1,25 +1,32 @@
-# Week 1 Submission Checklist (Group 1 or 2, ChatGPT)
+# Topic 1 Lab — Current Submission Checklist
 
-**Part A — Group**
-- [x] Five exact lab prompts answered in current ChatGPT conversation; answers documented as **in-session samples**.
-- [ ] Group confirms actual group number (1 or 2), members, model/account conditions.
-- [ ] Rerun in a fresh session if independent testing is expected; update text if different.
-- [ ] Capture 2–3 real screenshots for Q1, Q4, Q5 (no private information).
-- [ ] Finish reflection after hearing a YouTube/Spotify group's observations.
+## Part A — group (ChatGPT, Group 1 or 2)
+- [x] All five exact ChatGPT test prompts were run; **real screenshots supplied on 27 October 2026**.
+- [x] Observation sheet updated to reflect **actual** responses, including Q3 ambiguity failure and Q4 scope-clarity issue.
+- [x] Five original screenshots renamed and packaged for upload; three recommended for the lab.
+- [ ] Upload **2–3 actual screenshots** (recommended Q1, Q3, Q5) to `docs/evidence/` in GitHub.
+- [ ] Confirm **exact group number (1 or 2)** and insert group member names.
+- [ ] Note ChatGPT model/settings if known (do not guess).
+- [ ] Add reflection after listening to a YouTube or Spotify group's **real** observation.
 
-**Part B — Group**
-- [x] ChatGPT conceptual system map, colour conventions, assumed architecture marking.
-- [x] Six plausible failure points and likely impacts; group-review reflection drafted.
-- [x] Editable Draw.io file and viewable SVG uploaded.
-- [x] Required **docs/week1_system_map.png** is uploaded; review/edit the diagram as a group if needed.
+## Part B — same group
+- [x] Diagram file `docs/week1_system_map.png` present.
+- [x] Editable `docs/week1_system_map.drawio` present.
+- [x] Colour legend, information flow, assumed components and six plausible failures.
+- [x] Part B reflection drafted using real Q3 evidence and potential failure points.
+- [ ] Discuss and approve map with groupmates; revise if they have different findings.
 
-**Part C — Individual**
-- [x] SortSmart AI project scope and README in repository.
-- [ ] Recheck individual project citations and university-specific acceptance.
+## Part C — individual
+- [x] SortSmart AI `docs/week1_project_scope.md` and root `README.md` prepared.
+- [ ] Confirm sources, citation details, and project scope personally.
 
-**Final submission**
-- [ ] Verify `docs/week1_observation_sheet.md`, `docs/week1_system_map.png`, `docs/week1_project_scope.md`, and root `README.md`.
-- [ ] Each member keeps group evidence in their own project repository.
-- [ ] Submit repository URL to course portal: https://github.com/YANKEY-CODE/ai-engineering-sortsmart-ai
+## Final verification
+- [x] `docs/week1_observation_sheet.md` in GitHub.
+- [x] `docs/week1_system_map.png` in GitHub.
+- [x] `docs/week1_project_scope.md` in GitHub.
+- [x] `README.md` in GitHub.
+- [ ] Group evidence screenshots available in repository.
+- [ ] Each group member retains group observation sheet and system map in their **own** project repository.
+- [ ] Submit https://github.com/YANKEY-CODE/ai-engineering-sortsmart-ai on the course portal.
 
-**Not yet fully complete** due to screenshot evidence, group reflection and PNG GitHub upload.
+**Remaining main blockers:** group members, screenshot GitHub upload, real cross-group reflection, final review. 

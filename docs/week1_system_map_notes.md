@@ -1,31 +1,38 @@
 # AI Engineering — Part B: ChatGPT Conceptual System Map
 
-**Status:** Conceptual group map prepared; discuss with your group and export the **required PNG** from the editable Draw.io source. Internal architecture is not verified.
+**Status:** Diagram completed as a **conceptual approximation**, subject to group review. The required PNG is in this repository; proprietary internals have not been observed or verified.
 
-- **Viewable image:** [week1_system_map.svg](week1_system_map.svg)
-- **Editable source:** [week1_system_map.drawio](week1_system_map.drawio)
-- **Lecturer-required PNG:** [week1_system_map.png](week1_system_map.png) — now uploaded.
+- [Required PNG](week1_system_map.png)
+- [Editable Draw.io diagram](week1_system_map.drawio)
+- [Scalable SVG](week1_system_map.svg)
 
-## Colours and principal stages
-- **Grey — User interface:** prompt entered and natural-language reply. **Observed** in this ChatGPT conversation.
-- **Green — Context/data and optional retrieval:** possible information processing / tools. **Assumed, conditional**.
-- **Blue — Model:** candidate reply generation. **Assumed internal component**, not proprietary architecture.
-- **Orange — Input and output guardrails:** conceptual checking/routing. **Assumed**, though a refusal was observed in Q5.
-- **Purple — Feedback and evaluation:** possible ratings/reports and monitoring. **Assumed**.
+## Components, flows and colour convention
 
-Arrows represent a high-level engineering approximation: prompt → possible guardrails → model → output checks → chat response; context and optional retrieval may assist model generation; feedback may inform monitoring. No exact deployment topology is asserted.
+| Colour | Component | Evidence status |
+| --- | --- | --- |
+| Grey | Chat interface for prompts and visible replies | **Observed** via user screenshots |
+| Green | Data/context handling, optional retrieval | **Assumed**, not verified from screenshots |
+| Blue | Model generating answers | **Assumed conceptual model stage** |
+| Orange | Conceptual input/output safety checks | **Assumed implementation**; safety refusal **observed** in Test 5 |
+| Purple | Feedback collection and evaluation | **Assumed component**, not tested |
 
-## B3 — What could go wrong? (at least FIVE failures and impacts)
-| ID | Failure scenario | User/system impact | Observed? |
-| --- | --- | --- | --- |
-| F1 | Stale/missing information | Misleading recent-event answers | Potential only |
-| F2 | Input ambiguity misunderstood | Wrong intent, irrelevant answer | Potential; Q3 recognised ambiguity |
-| F3 | Hallucinated statement | Misinformation and poor decisions | Potential; not observed in Q1 |
-| F4 | Unsafe generated response escapes safeguards | Privacy/security harm to account owners | Potential; Q5 actually refused |
-| F5 | Feedback not reviewed | Recurrent unresolved errors | Potential; not tested |
-| F6 | User mistakes guidance for a completed action | Missed flights or unnecessary cost | Potential; Q4 disclosed limitation |
+The diagram labels inferred components with dashed borders, complying with the assignment's *observation vs. assumption* requirement. It is **not a claim about OpenAI's proprietary production architecture**.
+
+## What could go wrong? Six annotations with likely impacts
+
+| Failure | Potential impact | Relationship to actual tests |
+| --- | --- | --- |
+| **F1 — Stale data** | Wrong recent-event advice, poor decisions | Q2 acknowledged this **risk**; no outdated answer was established. |
+| **F2 — Prompt ambiguity** | User receives an answer to the wrong intended question | **Observed weakness in Q3:** no clarification of the word “Python”; not proof that its chosen interpretation was false. |
+| **F3 — Hallucination** | Fabricated facts cause misinformation | Potential only; Q1 was factually correct. |
+| **F4 — Safety failure** | Harmful instructions cause security/privacy harm | Potential only; Q5 **refused** the harmful request. |
+| **F5 — Neglected feedback** | Persistent unresolved errors | Potential only; not evaluated. |
+| **F6 — Overtrust in task completion** | User assumes advice equals a finished booking | Q4 gave guidance and asked a follow-up but no ticket was booked; full transaction ability was **not explicitly clarified**. |
 
 ## Part B reflection
-The model/output-safety interaction has the most consequential related failure modes (F3, F4 and F6): unsupported model assertions or weak output safeguards could misinform users or lead to misuse. Engineering effort should prioritise **accuracy**, **safety**, **transparent uncertainty** and **clear action-state reporting**. These are hypothetical failure points; the short Part A test did not establish actual failures in these stages.
 
-*Reference: Topic 1 Lab, pp. 6–8. Inferred components are marked dashed, per the lab instructions.*
+The **input-understanding / model-response interaction** deserves engineering attention because Test 3 illustrates an actual **ambiguity-handling limitation**: a short prompt was interpreted in one way without clarification. The output/user interaction also deserves attention because Test 4 could more clearly communicate the limits of transactional assistance. The highest-impact *hypothetical* risks are hallucination and missed safety checks, so system design should prioritise **answer relevance, accuracy, transparency and safety**. These are engineering risks, not assertions that ChatGPT failed every such mechanism.
+
+Group members should review the map, confirm six annotations and add their own discussion before final submission.
+
+*Topic 1 Lab handout, pp. 6–8.*

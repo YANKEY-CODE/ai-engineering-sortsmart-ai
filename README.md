@@ -47,14 +47,14 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 ## Weekly Progress
 | Week | Focus | Deliverable | Status |
 | --- | --- | --- | --- |
-| W1 | Existing AI analysis, system map, individual scope | Observation sheet, map, scope, README | In progress — group testing needed |
+| W1 | Existing AI analysis, system map, individual scope | Observation sheet, map, scope, README | Tested; screenshot GitHub upload and group review pending |
 | W2 | Requirements and evaluation criteria | Refined specifications | Planned |
 | W3+ | Implementation in Colab and website | Prototype and tests | Planned |
 
 ## Repository Structure
 - `docs/week1_project_scope.md` — individual Part C scope
-- `docs/week1_observation_sheet.md` — **group Part A draft; must be completed with actual observations**
-- `docs/week1_system_map_template.md` — **group Part B instructions; export the real diagram as `docs/week1_system_map.png`**
+- `docs/week1_observation_sheet.md` — **group Part A analysis updated from real screenshots; group details and reflection pending**
+- `docs/week1_system_map_template.md` — **additional Part B guide; actual map is in `docs/week1_system_map.png`**
 - `docs/week1_reflections.md` — prompts for reflection, to complete after group sharing
 - `data/`, `src/`, `notebooks/`, `evaluation/`, `prompts/` — later engineering evidence
 
@@ -62,5 +62,5 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 **Not ready to submit:** Part A and Part B depend on your assigned group system and actual observed evidence. The required `docs/week1_system_map.png` is now included. Final checks are in `SUBMISSION_CHECKLIST.md`.
 
 
-## Week 1 group evidence update — ChatGPT
-Part A is for **ChatGPT** (Groups 1–2). An **in-session five-prompt response sample** is recorded in [the observation sheet](docs/week1_observation_sheet.md); this is not an independently repeated test and screenshot evidence still needs to be collected. Part B has an [editable Draw.io map](docs/week1_system_map.drawio), a [viewable SVG](docs/week1_system_map.svg), and [failure-point notes](docs/week1_system_map_notes.md). The [required PNG system map](docs/week1_system_map.png) is uploaded. Group review and evidence screenshots are still needed. Read [the updated checklist](SUBMISSION_CHECKLIST.md) for all outstanding items.
+## Week 1 group evidence update — ChatGPT (27 October 2026)
+Five exact test prompts have **real screenshots supplied by the student**. The [observation sheet](docs/week1_observation_sheet.md) now accurately documents the tested responses: Q1 and Q2 performed well, Q3 did not clarify the ambiguous word “Python”, Q4 offered guidance without a clear transaction-capability statement, and Q5 safely refused account intrusion. **Screenshot upload to GitHub is still pending**; see [evidence instructions](docs/evidence/README.md). The [required conceptual map PNG](docs/week1_system_map.png), [editable Draw.io source](docs/week1_system_map.drawio) and [Part B notes](docs/week1_system_map_notes.md) are available. Group member details and the cross-group reflection still need to be completed. See [the checklist](SUBMISSION_CHECKLIST.md).
