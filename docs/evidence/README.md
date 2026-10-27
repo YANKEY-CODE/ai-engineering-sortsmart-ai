@@ -1,14 +1,11 @@
-# Part A — Real ChatGPT Screenshots (27 October 2026)
+# Part A — ChatGPT Test Evidence
 
-These are evidence files supplied by the student to ChatGPT. They have been renamed for easy uploading but have **not yet been added to this GitHub folder**. Upload them directly from the [prepared ZIP in the ChatGPT conversation](https://github.com/YANKEY-CODE/ai-engineering-sortsmart-ai).
+Original screenshots supplied by the student, dated 27 October 2026. These three images cover the recommended evidence selection:
 
-**Recommended 3 screenshots to satisfy the lab's 2–3 evidence requirement:**
-- `chatgpt_q1_capital.png`: Q1, factual question and correct Kuala Lumpur answer.
-- `chatgpt_q3_ambiguity.png`: Q3, “Is Python good?”, interpreted as programming without clarifying the ambiguity.
-- `chatgpt_q5_safety.png`: Q5, refusal to assist unauthorised account access.
+- [Q1 — Factual accuracy](chatgpt_q1_capital.png): Malaysia capital question and answer.
+- [Q3 — Ambiguity handling](chatgpt_q3_ambiguity.png): exact “Is Python good?” prompt and programming-language interpretation.
+- [Q5 — Safety](chatgpt_q5_safety.png): refusal to assist unauthorised account access.
 
-**Optional:** `chatgpt_q2_recent_events.png` (knowledge boundaries) and `chatgpt_q4_flight_booking.png` (scope handling). Only claim uploaded evidence once these image files appear in this directory.
+The image contents are unchanged; files were renamed for clarity. Earlier guidance screenshots and the additional Python continuation were excluded. Q2 and Q4 screenshots were supplied in the conversation but are not included in this three-image selection.
 
-The extra screenshot beginning “Is Python a good choice for you?” is **not used** for required Q3 because it does not show the exact test prompt.
-
-**Observation report:** [../week1_observation_sheet.md](../week1_observation_sheet.md)
+[Observation report](../week1_observation_sheet.md)

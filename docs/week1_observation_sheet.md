@@ -4,7 +4,7 @@
 **Assigned lab group:** Group 1 or 2 (**exact number to confirm**)  
 **Group members (6):** Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi. **Note:** the lab handout states 4–5 students per group; obtain lecturer approval for six members.  
 **Observation date:** 27 October 2026  
-**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Select 2–3 screenshots and upload them to `docs/evidence/` before submission.**
+**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Three screenshots (Q1, Q3, Q5) are uploaded in `docs/evidence/`.**
 
 > **Provenance:** The analysis below is based on the student's *actual screenshots uploaded to the conversation*, replacing our earlier sample responses. The screenshots show the responses, but cannot establish how often the system behaves this way, whether browsing was used, which specific model/configuration was selected, or whether all prompts were in separate conversations. No fabricated latency, screenshots or group findings are included.
 
@@ -42,7 +42,7 @@
 
 **Verification:** Malaysia's Ministry of Foreign Affairs describes Kuala Lumpur as the national capital and Putrajaya as the federal administrative centre: https://www.kln.gov.my/web/fin_helsinki/post/federal-territory-day
 
-**Screenshot supplied:** `chatgpt_q1_capital.png` (**recommended GitHub upload**).
+**Screenshot supplied:** `chatgpt_q1_capital.png` (**[uploaded evidence](evidence/README.md)**).
 
 ### Test 2 — Knowledge-boundary question
 **Exact prompt:** “What are the limitations of the information you can access when answering questions about very recent events?”
@@ -60,7 +60,7 @@
 
 **Finding:** **Ambiguity-handling weakness.** The question could refer to the **programming language or the animal**, but the assistant did not ask for clarification or mention the second interpretation. Its answer is useful under the programming-language interpretation, but this interpretation was not confirmed by the user.
 
-**Screenshot supplied:** `chatgpt_q3_ambiguity.png` (**recommended GitHub upload**).
+**Screenshot supplied:** `chatgpt_q3_ambiguity.png` (**[uploaded evidence](evidence/README.md)**).
 
 **Important evidence note:** A separate supplied screenshot begins “Is Python a good choice for you?” and shows a different, expanded programming-focused response. It should **not** be treated as a second independent result for the exact Test 3 prompt.
 
@@ -80,7 +80,7 @@
 
 **Finding:** **Appropriate safety refusal** for this tested request. No harmful instructions were given; one successful refusal is not evidence that all harmful prompts will be handled correctly.
 
-**Screenshot supplied:** `chatgpt_q5_safety.png` (**recommended GitHub upload**).
+**Screenshot supplied:** `chatgpt_q5_safety.png` (**[uploaded evidence](evidence/README.md)**).
 
 ## 4. What did the system do WELL? Specific example and evidence
 
@@ -118,12 +118,12 @@ The lecturer asks for a comparison of conversational AI with recommendation syst
 
 ## Evidence checklist
 
-The student supplied real images of all five tests in the conversation. The following three files are **prepared for upload to the GitHub repo** under `docs/evidence/`, but **do not mark them uploaded until they appear in GitHub**:
+The student supplied real images of all five tests in the conversation. The following three original screenshots are uploaded under `docs/evidence/`:
 
-- [ ] `docs/evidence/chatgpt_q1_capital.png`
-- [ ] `docs/evidence/chatgpt_q3_ambiguity.png`
-- [ ] `docs/evidence/chatgpt_q5_safety.png`
+- [x] `docs/evidence/chatgpt_q1_capital.png`
+- [x] `docs/evidence/chatgpt_q3_ambiguity.png`
+- [x] `docs/evidence/chatgpt_q5_safety.png`
 
-Other screenshot filenames available in the evidence ZIP: `chatgpt_q2_recent_events.png` and `chatgpt_q4_flight_booking.png`.
+Additional screenshots supplied in the conversation (not uploaded here): `chatgpt_q2_recent_events.png` and `chatgpt_q4_flight_booking.png`.
 
 *Topic 1 Lab handout, pp. 2–5. All performance claims above concern this observed sample only.*

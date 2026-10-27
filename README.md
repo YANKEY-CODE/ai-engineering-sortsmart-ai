@@ -47,7 +47,7 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 ## Weekly Progress
 | Week | Focus | Deliverable | Status |
 | --- | --- | --- | --- |
-| W1 | Existing AI analysis, system map, individual scope | Observation sheet, map, scope, README | Tested; screenshot GitHub upload and group review pending |
+| W1 | Existing AI analysis, system map, individual scope | Observation sheet, map, scope, README | Tested; evidence uploaded; group review pending |
 | W2 | Requirements and evaluation criteria | Refined specifications | Planned |
 | W3+ | Implementation in Colab and website | Prototype and tests | Planned |
 
@@ -63,7 +63,7 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 
 
 ## Week 1 group evidence update — ChatGPT (27 October 2026)
-Five exact test prompts have **real screenshots supplied by the student**. The [observation sheet](docs/week1_observation_sheet.md) now accurately documents the tested responses: Q1 and Q2 performed well, Q3 did not clarify the ambiguous word “Python”, Q4 offered guidance without a clear transaction-capability statement, and Q5 safely refused account intrusion. **Screenshot upload to GitHub is still pending**; see [evidence instructions](docs/evidence/README.md). The [required conceptual map PNG](docs/week1_system_map.png), [editable Draw.io source](docs/week1_system_map.drawio) and [Part B notes](docs/week1_system_map_notes.md) are available. Group member details and the cross-group reflection still need to be completed. See [the checklist](SUBMISSION_CHECKLIST.md).
+Five exact test prompts have **real screenshots supplied by the student**. The [observation sheet](docs/week1_observation_sheet.md) now accurately documents the tested responses: Q1 and Q2 performed well, Q3 did not clarify the ambiguous word “Python”, Q4 offered guidance without a clear transaction-capability statement, and Q5 safely refused account intrusion. **Three evidence screenshots are uploaded**; see [evidence files](docs/evidence/README.md). The [required conceptual map PNG](docs/week1_system_map.png), [editable Draw.io source](docs/week1_system_map.drawio) and [Part B notes](docs/week1_system_map_notes.md) are available. Group member details and the cross-group reflection still need to be completed. See [the checklist](SUBMISSION_CHECKLIST.md).
 
 ### Part A/B Group Members
 Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi. **Exact group number pending confirmation.** Since the Topic 1 handout describes groups of 4–5, the group should confirm approval for six members.
