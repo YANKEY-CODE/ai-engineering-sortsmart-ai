@@ -36,3 +36,7 @@ The **input-understanding / model-response interaction** deserves engineering at
 Group members should review the map, confirm six annotations and add their own discussion before final submission.
 
 *Topic 1 Lab handout, pp. 6–8.*
+
+
+## Independent diagram review (27 October 2026)
+An assistant-level quality check found the **five required colour categories**, user-visible versus **dashed assumed** components, directional information flows, and **six** annotated potential failure points with impacts. It is suitable as a conceptual *draft* and avoids asserting OpenAI's proprietary internals. **Group approval remains pending** and any required revisions should reflect the group's observations.

@@ -66,3 +66,13 @@ SortSmart AI addresses waste classification and disposal guidance rather than ac
 **Out of scope:** image-recognition training, automated bin control, definitive legal compliance, live collection-centre availability and nationwide real-time pickup scheduling.
 
 **Initial evaluation metrics:** label accuracy on annotated text-item queries; citation relevance/faithfulness; percentage of ambiguous or hazardous prompts safely escalated; latency in seconds.
+
+
+## Source Verification and Scope Quality Check (27 October 2026)
+
+- **OpenDOSM national recycling rate:** Official data catalogue shows **37.90%** for 2024 (dataset updated October 2026): https://open.dosm.gov.my/data-catalogue/sdg_12-5-1 . This is useful national context, **not evidence proving any individual's difficulty identifying waste**.
+- **JPSPN source-separation guidance:** Official technical PDF is accessible and on topic: https://jpspn.kpkt.gov.my/jpspn/resources/Images%20JPSPN/Sumber%20Rujukan/Garis%20Panduan%20Teknikal/Guidelines_for_Source_Separation_of_Municipal_Solid_Wastes.pdf . **It dates to 2006.** Check newer municipal/local guidance before using disposal rules as current instructions.
+- **KPKT 2024 food-waste release:** Official 17 March 2024 SWCorp media statement is accessible: https://www.kpkt.gov.my/kpkt/resources/user_1/media_akhbar/2024/SM_PENDUDUK_CAKNA_KEMPEN_HARGAI_MAKANAN_ELAK_PEMBAZIRAN.pdf . This is credible evidence of a waste-management concern, but **it is a campaign/food-waste statement, not an exhaustive practical material-sorting manual**.
+- **Department of Environment household e-waste FAQ:** Official website supports referring e-waste to registered collection centres: https://ewaste.doe.gov.my/index.php/faq/ . Confirm current item eligibility and local collection availability rather than assuming all centres take all electronics.
+
+**Assessment:** The preliminary project fits the requirement for two or more publicly accessible documents and a feasible document-grounded AI use case. The student should verify course acceptance and should prioritise up-to-date local collection guidance for the later application; this Week 1 scoping evidence should not be mistaken for a finished, jurisdiction-specific disposal knowledge base.

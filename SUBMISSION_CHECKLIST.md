@@ -14,11 +14,13 @@
 - [x] Editable `docs/week1_system_map.drawio` present.
 - [x] Colour legend, information flow, assumed components and six plausible failures.
 - [x] Part B reflection drafted using real Q3 evidence and potential failure points.
-- [ ] Discuss and approve map with groupmates; revise if they have different findings.
+- [x] Assistant reviewed conceptual map against lab handout: colour scheme, dashed assumed components, labelled flow, and six hypothetical failure annotations present.
+- [ ] Groupmates discuss and approve map; revise if they have different findings.
 
 ## Part C — individual
 - [x] SortSmart AI `docs/week1_project_scope.md` and root `README.md` prepared.
-- [ ] Confirm sources, citation details, and project scope personally.
+- [x] Assistant verified official sources/links on 27 October 2026 (JPSPN guidance, KPKT 2024 media statement, DOE e-waste FAQ, OpenDOSM recycling data). See project scope source check.
+- [ ] Student/group confirms final topic and course acceptance. Current source material includes an older 2006 technical guideline, so verify updated local policies before implementation.
 
 ## Final verification
 - [x] `docs/week1_observation_sheet.md` in GitHub.
