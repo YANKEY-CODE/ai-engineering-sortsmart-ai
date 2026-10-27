@@ -5,7 +5,9 @@
 - [x] Observation sheet updated to reflect **actual** responses, including Q3 ambiguity failure and Q4 scope-clarity issue.
 - [x] Five original screenshots renamed and packaged for upload; three recommended for the lab.
 - [ ] Upload **2–3 actual screenshots** (recommended Q1, Q3, Q5) to `docs/evidence/` in GitHub.
-- [ ] Confirm **exact group number (1 or 2)** and insert group member names.
+- [x] Group member names recorded: Chek Chee Him, Ng Pi Zhen, Chua Le Jun, Woo Yong Kang, Lee Yong Xiang, Lai Yan Qi.
+- [ ] Confirm exact group number (1 or 2).
+- [ ] Ask lecturer whether six members are permitted (lab handout says 4–5).
 - [ ] Note ChatGPT model/settings if known (do not guess).
 - [ ] Add reflection after listening to a YouTube or Spotify group's **real** observation.
 
