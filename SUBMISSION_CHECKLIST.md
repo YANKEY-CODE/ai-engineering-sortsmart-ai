@@ -1,29 +1,25 @@
-# Topic 1 Lab — Submission Checklist
+# Week 1 Submission Checklist (Group 1 or 2, ChatGPT)
 
-## Part A — group
-- [ ] Confirm assigned AI system and group membership
-- [ ] Run the correct five tests / observations
-- [ ] Record actual responses and collect 2–3 safe screenshots
-- [ ] Finish `docs/week1_observation_sheet.md`
-- [ ] Add after-sharing reflection based on another group's actual finding
+**Part A — Group**
+- [x] Five exact lab prompts answered in current ChatGPT conversation; answers documented as **in-session samples**.
+- [ ] Group confirms actual group number (1 or 2), members, model/account conditions.
+- [ ] Rerun in a fresh session if independent testing is expected; update text if different.
+- [ ] Capture 2–3 real screenshots for Q1, Q4, Q5 (no private information).
+- [ ] Finish reflection after hearing a YouTube/Spotify group's observations.
 
-## Part B — same group
-- [ ] Build conceptual map for the **Part A assigned system** using https://app.diagrams.net/
-- [ ] Use colour legend and dashed / labelled assumed components
-- [ ] Annotate at least 5 plausible failure points with impacts
-- [ ] Export `docs/week1_system_map.png`
-- [ ] Add Part B reflection
+**Part B — Group**
+- [x] ChatGPT conceptual system map, colour conventions, assumed architecture marking.
+- [x] Six plausible failure points and likely impacts; group-review reflection drafted.
+- [x] Editable Draw.io file and viewable SVG uploaded.
+- [ ] Export/save **docs/week1_system_map.png** from Draw.io (or upload the PNG given in this conversation) — required filename.
 
-## Part C — individual
-- [x] Choose a separate semester project: SortSmart AI
-- [x] Draft `docs/week1_project_scope.md` with problem, evidence, 3 related approaches, objectives, sources, risks
-- [x] Draft root `README.md`
-- [ ] Read and confirm the scope personally; verify links / source currency
+**Part C — Individual**
+- [x] SortSmart AI project scope and README in repository.
+- [ ] Recheck individual project citations and university-specific acceptance.
 
-## Finish
-- [ ] Group files stored in your individual repository under `docs/`
-- [ ] No API keys, private data or restricted copyrighted source PDFs in public repository
-- [ ] Check GitHub has `README.md`, observation .md, system-map .png, project-scope .md
-- [ ] Submit repository URL on course portal: https://github.com/YANKEY-CODE/ai-engineering-sortsmart-ai
+**Final submission**
+- [ ] Verify `docs/week1_observation_sheet.md`, `docs/week1_system_map.png`, `docs/week1_project_scope.md`, and root `README.md`.
+- [ ] Each member keeps group evidence in their own project repository.
+- [ ] Submit repository URL to course portal: https://github.com/YANKEY-CODE/ai-engineering-sortsmart-ai
 
-**Do not mark the lab fully complete until the group evidence and exported map are present.**
+**Not yet fully complete** due to screenshot evidence, group reflection and PNG GitHub upload.

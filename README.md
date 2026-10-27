@@ -60,3 +60,7 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 
 ## Week 1 Submission Status
 **Not ready to submit:** Part A and Part B depend on your assigned group system and actual observed evidence. The required `docs/week1_system_map.png` has not yet been added. Final checks are in `SUBMISSION_CHECKLIST.md`.
+
+
+## Week 1 group evidence update — ChatGPT
+Part A is for **ChatGPT** (Groups 1–2). An **in-session five-prompt response sample** is recorded in [the observation sheet](docs/week1_observation_sheet.md); this is not an independently repeated test and screenshot evidence still needs to be collected. Part B has an [editable Draw.io map](docs/week1_system_map.drawio), a [viewable SVG](docs/week1_system_map.svg), and [failure-point notes](docs/week1_system_map_notes.md). **Export/upload the required `docs/week1_system_map.png`** before submission. Read [the updated checklist](SUBMISSION_CHECKLIST.md) for all outstanding items.
