@@ -11,7 +11,7 @@
 - [x] ChatGPT conceptual system map, colour conventions, assumed architecture marking.
 - [x] Six plausible failure points and likely impacts; group-review reflection drafted.
 - [x] Editable Draw.io file and viewable SVG uploaded.
-- [ ] Export/save **docs/week1_system_map.png** from Draw.io (or upload the PNG given in this conversation) — required filename.
+- [x] Required **docs/week1_system_map.png** is uploaded; review/edit the diagram as a group if needed.
 
 **Part C — Individual**
 - [x] SortSmart AI project scope and README in repository.

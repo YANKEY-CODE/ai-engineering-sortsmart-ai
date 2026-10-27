@@ -4,7 +4,7 @@
 
 - **Viewable image:** [week1_system_map.svg](week1_system_map.svg)
 - **Editable source:** [week1_system_map.drawio](week1_system_map.drawio)
-- **Lecturer-required PNG:** `docs/week1_system_map.png` — needs export/upload (PNG is also available in the ChatGPT conversation download).
+- **Lecturer-required PNG:** [week1_system_map.png](week1_system_map.png) — now uploaded.
 
 ## Colours and principal stages
 - **Grey — User interface:** prompt entered and natural-language reply. **Observed** in this ChatGPT conversation.
