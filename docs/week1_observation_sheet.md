@@ -4,7 +4,7 @@
 **Assigned lab group:** ChatGPT   
 **Group members (6):** Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi.  
 **Observation date:** 27 October 2026  
-**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Three screenshots (Q1, Q3, Q5) are uploaded
+**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Three screenshots (Q1, Q3, Q5) are uploaded to `docs/evidence/`.**
 
 
 ## 1. What problem does this system solve? Who benefits?
