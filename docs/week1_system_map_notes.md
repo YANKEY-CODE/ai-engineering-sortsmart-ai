@@ -29,9 +29,22 @@ The diagram labels inferred components with dashed borders, complying with the a
 | **F5 — Neglected feedback** | Persistent unresolved errors | Potential only; not evaluated. |
 | **F6 — Overtrust in task completion** | User assumes advice equals a finished booking | Q4 gave guidance and asked a follow-up but no ticket was booked; full transaction ability was **not explicitly clarified**. |
 
+## Failure-point-to-component mapping (clarifies the diagram)
+
+| Failure label | Relevant stage or interaction | Quality dimension |
+| --- | --- | --- |
+| F1 — Stale data | **Data/context** supplying old or incomplete information to the model | Accuracy / reliability |
+| F2 — Prompt ambiguity | **User input → input processing → model**; Q3 illustrates a real interpretation weakness | Answer relevance / transparency |
+| F3 — Hallucination | **Model generation → output checking**; unsupported claims might pass into the response | Accuracy / reliability |
+| F4 — Safety failure | **Output guardrails → user-visible answer**; harmful content could be shown | Safety / security |
+| F5 — Missed feedback | **Feedback collection → evaluation**; errors could persist | Monitoring / reliability |
+| F6 — Overtrust in task completion | **Output response → user**; booking guidance might be mistaken for an actual booking | Transparency / scope handling |
+
+The six red boxes in the diagram are grouped as a failure-point register. The mapping above identifies the stage for each box; the red boxes do **not** represent six incidents established by testing. The **model/output-response pathway** has three related risks (F3, F4 and F6), so it is reasonable to concentrate additional checks there, while also addressing the **observed Q3 ambiguity weakness** at the input/model interaction.
+
 ## Part B reflection
 
-The **input-understanding / model-response interaction** deserves engineering attention because Test 3 illustrates an actual **ambiguity-handling limitation**: a short prompt was interpreted in one way without clarification. The output/user interaction also deserves attention because Test 4 could more clearly communicate the limits of transactional assistance. The highest-impact *hypothetical* risks are hallucination and missed safety checks, so system design should prioritise **answer relevance, accuracy, transparency and safety**. These are engineering risks, not assertions that ChatGPT failed every such mechanism.
+The **model-to-output-checking and user-response pathway** has the largest cluster of related annotations in the conceptual map: F3 (hallucination), F4 (missed safety problem) and F6 (overtrust in task completion). This suggests concentrating engineering effort on **answer accuracy and reliability**, **safety**, and **transparency about completed actions**. Separately, Test 3 showed an **observed ambiguity-handling weakness** at the input/model interaction: ChatGPT interpreted “Is Python good?” as a programming-language question without asking for clarification. Test 4 also lacked an explicit statement about direct ticket-purchasing capability. The other failure points remain plausible risks rather than confirmed incidents.
 
 Group members should review the map, confirm six annotations and add their own discussion before final submission.
 
