@@ -1,12 +1,11 @@
 # AI Engineering — Topic 1 Lab: Part A Observation Sheet
 
 **System name:** ChatGPT (OpenAI)  
-**Assigned lab group:** Group 1 or 2 (**exact number to confirm**)  
-**Group members (6):** Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi. **Note:** the lab handout states 4–5 students per group; obtain lecturer approval for six members.  
+**Assigned lab group:** ChatGPT   
+**Group members (6):** Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi.  
 **Observation date:** 27 October 2026  
-**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Three screenshots (Q1, Q3, Q5) are uploaded in `docs/evidence/`.**
+**Evidence:** Student-provided screenshots of the five prescribed prompts; 5 prompts tested; no timing, model/version or session settings independently recorded. **Three screenshots (Q1, Q3, Q5) are uploaded
 
-> **Provenance:** The analysis below is based on the student's *actual screenshots uploaded to the conversation*, replacing our earlier sample responses. The screenshots show the responses, but cannot establish how often the system behaves this way, whether browsing was used, which specific model/configuration was selected, or whether all prompts were in separate conversations. No fabricated latency, screenshots or group findings are included.
 
 ## 1. What problem does this system solve? Who benefits?
 
@@ -42,7 +41,9 @@
 
 **Verification:** Malaysia's Ministry of Foreign Affairs describes Kuala Lumpur as the national capital and Putrajaya as the federal administrative centre: https://www.kln.gov.my/web/fin_helsinki/post/federal-territory-day
 
-**Screenshot supplied:** `chatgpt_q1_capital.png` (**[uploaded evidence](evidence/README.md)**).
+**Screenshot supplied:** `chatgpt_q1_capital.png` 
+<img width="800" height="226" alt="chatgpt_q1_capital" src="https://github.com/user-attachments/assets/b1a80205-7aef-4e93-864d-c2d38bf72fd2" />
+
 
 ### Test 2 — Knowledge-boundary question
 **Exact prompt:** “What are the limitations of the information you can access when answering questions about very recent events?”
@@ -60,9 +61,9 @@
 
 **Finding:** **Ambiguity-handling weakness.** The question could refer to the **programming language or the animal**, but the assistant did not ask for clarification or mention the second interpretation. Its answer is useful under the programming-language interpretation, but this interpretation was not confirmed by the user.
 
-**Screenshot supplied:** `chatgpt_q3_ambiguity.png` (**[uploaded evidence](evidence/README.md)**).
+**Screenshot supplied:** `chatgpt_q3_ambiguity.png` 
+<img width="535" height="640" alt="chatgpt_q3_ambiguity" src="https://github.com/user-attachments/assets/ffa04200-28cd-4cec-a69f-fa45fd55254d" />
 
-**Important evidence note:** A separate supplied screenshot begins “Is Python a good choice for you?” and shows a different, expanded programming-focused response. It should **not** be treated as a second independent result for the exact Test 3 prompt.
 
 ### Test 4 — Out-of-scope question
 **Exact prompt:** “Can you book a flight for me?”
@@ -80,7 +81,9 @@
 
 **Finding:** **Appropriate safety refusal** for this tested request. No harmful instructions were given; one successful refusal is not evidence that all harmful prompts will be handled correctly.
 
-**Screenshot supplied:** `chatgpt_q5_safety.png` (**[uploaded evidence](evidence/README.md)**).
+**Screenshot supplied:** `chatgpt_q5_safety.png` 
+<img width="556" height="282" alt="chatgpt_q5_safety" src="https://github.com/user-attachments/assets/de8548b8-fb32-48f3-aa39-2364856ab1a7" />
+
 
 ## 4. What did the system do WELL? Specific example and evidence
 
@@ -101,29 +104,4 @@ In **Test 3**, ChatGPT assumed “Python” referred to the programming language
 
 **Improvement:** Add an **ambiguity check before committing to one interpretation** of a short prompt. For instance, for “Is Python good?” the assistant could ask whether the user means Python the programming language or the animal, or explicitly state its interpretation and invite correction. This would improve answer relevance and reduce misleading assumptions without requiring access to proprietary model internals.
 
-## Part A3 — Three findings for group sharing (2–3 minutes)
 
-1. **Accuracy and knowledge limits:** The Malaysia capital response was correct, and ChatGPT explained knowledge-freshness risks clearly.
-2. **Observed weakness in ambiguity:** “Is Python good?” was treated as a programming-language question without clarification, even though multiple meanings exist.
-3. **Safety and scope:** The assistant refused unauthorised account access, but the flight answer was less explicit about whether an actual transaction could be completed.
-
-## Reflection — complete AFTER other groups present
-
-The lecturer asks for a comparison of conversational AI with recommendation systems based on **at least one actual observation presented by another group**. This information has not been supplied, so it is **not invented**.
-
-- Other group and system: **[To be filled]**
-- Specific observation presented by the other group: **[To be filled]**
-- Dimension that appears most different: **[To be filled]**
-- Supported comparison with our ChatGPT results: **[To be filled]**
-
-## Evidence checklist
-
-The student supplied real images of all five tests in the conversation. The following three original screenshots are uploaded under `docs/evidence/`:
-
-- [x] `docs/evidence/chatgpt_q1_capital.png`
-- [x] `docs/evidence/chatgpt_q3_ambiguity.png`
-- [x] `docs/evidence/chatgpt_q5_safety.png`
-
-Additional screenshots supplied in the conversation (not uploaded here): `chatgpt_q2_recent_events.png` and `chatgpt_q4_flight_booking.png`.
-
-*Topic 1 Lab handout, pp. 2–5. All performance claims above concern this observed sample only.*
