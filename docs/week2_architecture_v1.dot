@@ -1,0 +1,22 @@
+digraph SortSmart {
+ graph [bgcolor="#FFFFFF", rankdir=LR, splines=polyline, nodesep=0.62, ranksep=0.68, pad="0.35", fontname="DejaVu Sans", fontsize=18, label="SortSmart AI | V1 Conceptual Architecture", labelloc=t, labeljust=c];
+ node [shape=box, style="rounded,filled", penwidth=1.3, fontname="DejaVu Sans", fontsize=11, margin="0.16,0.13", color="#CBD5E1", fillcolor="#F8FAFC", fontcolor="#0F172A"];
+ edge [color="#64748B", arrowsize=0.8, penwidth=1.25, fontname="DejaVu Sans", fontsize=9, fontcolor="#475569"];
+ user [label="HOUSEHOLD USER\nItem description", shape=oval, fillcolor="#DBEAFE", color="#60A5FA"];
+ ui [label="WEB TEXT INTERFACE\nItem + optional city/district", fillcolor="#E0F2FE", color="#38BDF8"];
+ gate [label="CONTEXT & SAFETY TRIAGE\nAmbiguity • hazard • locality\nFR3 / FR4 / FR5 / RAI2–4", fillcolor="#FEE2E2", color="#F87171"];
+ retrieve [label="OFFICIAL EVIDENCE RETRIEVAL\nApproved passages + date / region\nFR2 / RAI1 / RAI3", fillcolor="#F0FDF4", color="#4ADE80"];
+ reason [label="AI ITEM INTERPRETATION\nTentative category + explanation\nFR1 / NFR1", fillcolor="#F3E8FF", color="#C084FC"];
+ check [label="RESPONSE VALIDATION\nCitation support • safety • caveat\nRAI1–3", fillcolor="#FEF3C7", color="#FBBF24"];
+ answer [label="USER OUTPUT\nSuggestion + reason + source\nOR clarification / safe referral", fillcolor="#DBEAFE", color="#60A5FA"];
+ documents [label="CURATED OFFICIAL SOURCES\nJPSPN • DOE • KPKT\nPublication date • jurisdiction", shape=cylinder, fillcolor="#DCFCE7", color="#4ADE80"];
+ update [label="SOURCE UPDATE / VERSION CHECK\nNFR3 (controlled replacement)", fillcolor="#F1F5F9", color="#94A3B8"];
+ eval [label="EVALUATION POINT\nCorrectness • grounding • safety\nLatency • cost • error handling", style="rounded,dashed,filled", fillcolor="#F8FAFC", color="#94A3B8"];
+ user -> ui -> gate -> retrieve -> reason -> check -> answer;
+ gate -> answer [label="unclear or unsafe:\nclarify / refer", style=dashed, constraint=false, color="#F87171"];
+ documents -> retrieve [label="approved evidence", color="#16A34A"];
+ update -> documents [label="versioned update", style=dashed, color="#64748B"];
+ check -> eval [style=dashed, label="test responses", color="#64748B"];
+ {rank=same; documents; retrieve; update}
+ {rank=same; check; eval}
+}

@@ -2,7 +2,7 @@
 
 > A proposed AI Engineering semester project helping Malaysian households and students understand how to separate household waste and handle common e-waste, using cited public Malaysian guidance.
 
-**Status:** Week 1 project framing / planning. This repository is an engineering record, **not yet a functioning AI application**.
+**Status:** Topic 2 requirements, evaluation plan and conceptual V1 architecture completed. This repository is an engineering record, **not yet a functioning AI application**.
 
 ## Problem Statement
 People who want to dispose of everyday waste correctly must interpret material categories, contamination conditions, and local collection requirements across several sources. Wrong assumptions may contaminate recyclable collections or lead to unsafe e-waste disposal. SortSmart AI proposes a document-grounded question-answering assistant that explains classifications in plain language and links to official sources.
@@ -48,7 +48,7 @@ Prepare a small test set of item descriptions with ground-truth labels and relev
 | Week | Focus | Deliverable | Status |
 | --- | --- | --- | --- |
 | W1 | Existing AI analysis, system map, individual scope | Observation sheet, map, scope, README | Tested; evidence uploaded; group review pending |
-| W2 | Requirements and evaluation criteria | Refined specifications | Planned |
+| W2 | Requirements, evaluation criteria and V1 architecture | Parts A–C, ADRs and traceability | Planning deliverables completed; evaluation not run |
 | W3+ | Implementation in Colab and website | Prototype and tests | Planned |
 
 ## Repository Structure
@@ -67,3 +67,15 @@ Five exact test prompts have **real screenshots supplied by the student**. The [
 
 ### Part A/B Group Members
 Chek Chee Him; Ng Pi Zhen; Chua Le Jun; Woo Yong Kang; Lee Yong Xiang; Lai Yan Qi. **Exact group number pending confirmation.** Since the Topic 1 handout describes groups of 4–5, the group should confirm approval for six members.
+
+## Topic 2 Lab — planning deliverables
+
+Reviewed against the official `Topic 2_Lab.docx` and the Week 1 scope; refined from the supplied Topic 2 ZIP/report on 4 November 2026.
+
+- [Part A: framing, scope and requirements](docs/week2_requirements.md)
+- [Part B: evaluation criteria and scoring protocol](docs/week2_evaluation_criteria.md)
+- [Part C: V1 architecture PNG](docs/week2_architecture_v1.png)
+- [Architecture needs, decisions, traceability and reflection](docs/week2_architecture_decisions.md)
+- [Editable Draw.io diagram](docs/week2_architecture_v1.drawio) and [Graphviz source](docs/week2_architecture_v1.dot)
+
+All thresholds are proposed acceptance targets. No prototype implementation or experimental results are claimed. Topic 2's four required planning deliverables are complete. Source-access/quality limitations are recorded in Part A and must be resolved before corpus ingestion. Week 3 PDF preparation and Colab setup remain pending; existing Week 1 group/reflection status above is unchanged.
