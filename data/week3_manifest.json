@@ -1,0 +1,57 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T12:38:28.997127+00:00",
+  "project": "SortSmart AI",
+  "dataset_status": "synthetic_practice_only",
+  "records": [
+    {
+      "source_id": "S01",
+      "source": "topic3_dummy_datasets/01_documents/student_handbook_demo.pdf",
+      "source_sha256": "3dc6270e4a2d072afe07502c27c0bb71a2305bf2e020f01cc86fe96d7950ec5e",
+      "source_size_bytes": 1705,
+      "output": "data/processed/prepared_text.jsonl",
+      "output_sha256": "bf0ed47e57c0b8482b453ad64165c179ea27c8897bf32bce7e4700ded3aadeb9",
+      "output_size_bytes": 4759,
+      "output_record_ids": [
+        "S01-p1-0001",
+        "S01-p1-0002",
+        "S01-p1-0003",
+        "S01-p1-0004",
+        "S01-p1-0005"
+      ],
+      "output_record_count": 5,
+      "processing": "paragraph-aware-char-160; PDF page IDs retained",
+      "provenance_limitation": "Synthetic education sample; no real Malaysian waste policy, approval or publication provenance",
+      "source_rights": "Course-provided synthetic practice; public redistribution not verified",
+      "requirements": [
+        "FR2",
+        "RAI1",
+        "RAI3",
+        "NFR3"
+      ]
+    },
+    {
+      "source_id": "S02",
+      "source": "topic3_dummy_datasets/01_documents/faq_demo.txt",
+      "source_sha256": "05461ed704d8c8cf8b7a609e2b4b4e7cb800a7fe16a68fe5805546a7b3e2f43f",
+      "source_size_bytes": 171,
+      "output": "data/processed/prepared_text.jsonl",
+      "output_sha256": "bf0ed47e57c0b8482b453ad64165c179ea27c8897bf32bce7e4700ded3aadeb9",
+      "output_size_bytes": 4759,
+      "output_record_ids": [
+        "S02-p0-0001",
+        "S02-p0-0002"
+      ],
+      "output_record_count": 2,
+      "processing": "paragraph-aware-char-160; PDF page IDs retained",
+      "provenance_limitation": "Synthetic education sample; no real Malaysian waste policy, approval or publication provenance",
+      "source_rights": "Course-provided synthetic practice; public redistribution not verified",
+      "requirements": [
+        "FR2",
+        "RAI1",
+        "RAI3",
+        "NFR3"
+      ]
+    }
+  ]
+}

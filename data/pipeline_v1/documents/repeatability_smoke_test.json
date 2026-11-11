@@ -1,0 +1,19 @@
+{
+  "test": "week3_v1_repeatability_smoke_test",
+  "checked_at_utc": "2026-11-11T12:38:29.017671+00:00",
+  "result": "PASS",
+  "checks": {
+    "same_source_paths": true,
+    "same_source_sha256": true,
+    "same_source_sizes": true,
+    "same_output_sha256": true,
+    "same_output_bytes": true,
+    "same_record_count": true,
+    "same_source_record_mapping": true,
+    "matches_part_b_export": true
+  },
+  "source_count": 2,
+  "record_count": 7,
+  "prepared_sha256": "bf0ed47e57c0b8482b453ad64165c179ea27c8897bf32bce7e4700ded3aadeb9",
+  "note": "Two runs in one environment with the same sources/config; not cross-environment reproducibility or model quality."
+}

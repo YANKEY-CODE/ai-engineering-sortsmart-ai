@@ -79,3 +79,19 @@ Reviewed against the official `Topic 2_Lab.docx` and the Week 1 scope; refined f
 - [Editable Draw.io diagram](docs/week2_architecture_v1.drawio) and [Graphviz source](docs/week2_architecture_v1.dot)
 
 All thresholds are proposed acceptance targets. No prototype implementation or experimental results are claimed. Topic 2's four required planning deliverables are complete. Source-access/quality limitations are recorded in Part A and must be resolved before corpus ingestion. Week 3 PDF preparation and Colab setup remain pending; existing Week 1 group/reflection status above is unchanged.
+
+## Topic 3 Lab — V1 document data pipeline (11 November 2026)
+
+**Status:** Pathway A (PDF/TXT) implemented and locally Jupyter-tested using two course-supplied synthetic examples; **not** yet a Google Colab execution claim or a functioning waste-sorting AI. This pathway matches Week 2's text-only scope; image recognition remains out of scope.
+
+- [Runnable Colab notebook](notebooks/week3_pipeline.ipynb) — upload the course ZIP and run all cells; public notebook has outputs cleared to avoid republishing course content.
+- [Part A: data inventory and source rights](docs/week3_data_inventory.md)
+- [Part B/C: chunking comparison, decisions, ETL/batch choice, contracts, risks](docs/week3_pipeline_decisions.md)
+- [Part C: pipeline diagram](docs/week3_pipeline_diagram.png), [editable Draw.io](docs/week3_pipeline_diagram.drawio)
+- [Part B source/output hashes and lineage manifest](data/week3_manifest.json)
+- [Part C execution manifest](data/pipeline_v1/documents/pipeline_manifest.json) and [repeatability checks](data/pipeline_v1/documents/repeatability_smoke_test.json)
+- [Prepared-data publishing note](data/processed/README.md)
+
+**Observed engineering evidence:** 2 synthetic PDF/TXT sources; 7 prepared paragraph-aware text chunks (160-character maximum); the same output SHA-256 from Part B and Part C; all 8 same-environment repeatability checks passed. These samples are synthetic academic text, **not Malaysian waste guidance**. No LLM, retrieval index, category prediction, official-policy evaluation or safety evaluation was run.
+
+**Data access:** The full derived `prepared_text.jsonl` and chunking comparison are retained in the student's coursework download package instead of this public repository because public redistribution rights for the supplied course text are not established. To regenerate them in an authorised environment, supply `Topic_3_Dummy_Datasets.zip` to the notebook in Google Colab. Before using real SortSmart evidence, review official JPSPN/DOE/KPKT source permission, date, jurisdiction, extraction quality and approval. Earlier Week 1 group follow-ups remain open.

@@ -1,0 +1,65 @@
+{
+  "pipeline_version": "week3-v1",
+  "run_at_utc": "2026-11-11T12:38:29.016723+00:00",
+  "pathway": "documents_pdf_txt",
+  "project": "SortSmart AI",
+  "dataset_status": "synthetic_practice_only",
+  "source_count": 2,
+  "record_count": 7,
+  "configuration": {
+    "method": "paragraph-aware",
+    "chunk_size_chars": 160,
+    "source_paths": [
+      "topic3_dummy_datasets/01_documents/student_handbook_demo.pdf",
+      "topic3_dummy_datasets/01_documents/faq_demo.txt"
+    ],
+    "source_validation": "nonempty + readable"
+  },
+  "stage_contracts": {
+    "ingest": "two explicit existing and permitted practice source files",
+    "inspect": "readable parsed PDF page(s) and one UTF-8 text record",
+    "prepare": "nonempty section/Q-A aware <= max length chunks",
+    "validate": "unique IDs, source coverage, synthetic status, JSONL reload",
+    "store": "data/pipeline_v1/documents/prepared_text.jsonl",
+    "record_lineage": "SHA-256 of each source, output, and IDs linked to source"
+  },
+  "inputs": [
+    {
+      "source_id": "S01",
+      "path": "topic3_dummy_datasets/01_documents/student_handbook_demo.pdf",
+      "sha256": "3dc6270e4a2d072afe07502c27c0bb71a2305bf2e020f01cc86fe96d7950ec5e",
+      "bytes": 1705
+    },
+    {
+      "source_id": "S02",
+      "path": "topic3_dummy_datasets/01_documents/faq_demo.txt",
+      "sha256": "05461ed704d8c8cf8b7a609e2b4b4e7cb800a7fe16a68fe5805546a7b3e2f43f",
+      "bytes": 171
+    }
+  ],
+  "output": {
+    "path": "data/pipeline_v1/documents/prepared_text.jsonl",
+    "sha256": "bf0ed47e57c0b8482b453ad64165c179ea27c8897bf32bce7e4700ded3aadeb9",
+    "bytes": 4759,
+    "records": 7
+  },
+  "source_to_record_ids": {
+    "S01": [
+      "S01-p1-0001",
+      "S01-p1-0002",
+      "S01-p1-0003",
+      "S01-p1-0004",
+      "S01-p1-0005"
+    ],
+    "S02": [
+      "S02-p0-0001",
+      "S02-p0-0002"
+    ]
+  },
+  "known_limitations": [
+    "synthetic student examples are not waste guidance",
+    "no model, embedding or retrieval evaluation",
+    "not proof of licence/redistribution permission",
+    "simple section-aware splitter may not generalise to complex PDFs"
+  ]
+}

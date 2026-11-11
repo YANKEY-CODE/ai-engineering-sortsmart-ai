@@ -1,0 +1,23 @@
+digraph Pipeline {
+ graph [rankdir=LR, bgcolor="#FFFFFF", pad="0.32", nodesep="0.32", ranksep="0.52", splines=polyline,
+       label="SortSmart AI  |  Topic 3 document data pipeline (V1)", labelloc=t, fontsize=20,
+       fontname="DejaVu Sans", fontcolor="#183153"];
+ node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12,
+       penwidth=1.6, margin="0.19,0.14", color="#CBD5E1", fillcolor="#F8FAFC", fontcolor="#183153"];
+ edge [color="#64748B", arrowsize=0.7, penwidth=1.6, fontname="DejaVu Sans", fontsize=9];
+ source [label="SOURCE  (S01 + S02)\nSynthetic PDF + TXT\nraw/ • NOT real waste policy", fillcolor="#E0F2FE", color="#0891B2"];
+ ingest [label="INGEST\nExplicit file paths\npypdf / UTF-8 reader", fillcolor="#E0F2FE", color="#0891B2"];
+ inspect [label="INSPECT\nReadability, sample text\nSHA-256 + source metadata", fillcolor="#F1F5F9", color="#94A3B8"];
+ prepare [label="PREPARE\nNormalize whitespace\nparagraph-aware / max 160", fillcolor="#DCFCE7", color="#16A34A"];
+ validate [label="VALIDATE\nNonempty / unique IDs\nsource coverage / length", fillcolor="#FEF3C7", color="#D97706"];
+ store [label="STORE\nprepared_text.jsonl\nPart B: 7 chunk records", fillcolor="#DCFCE7", color="#16A34A"];
+ lineage [label="RECORD LINEAGE\nPart B week3_manifest.json\nsource + output SHA-256", fillcolor="#DBEAFE", color="#2563EB"];
+ rerun [label="PART C EXECUTE + RERUN\npipeline_v1/documents/\nmanifest + PASS checks", fillcolor="#F3E8FF", color="#9333EA"];
+ fail1 [label="F1: Missing / unreadable source\nSTOP; verify upload/path", shape=note, color="#DC2626", fillcolor="#FEF2F2", fontsize=10];
+ fail2 [label="F2: Empty / malformed output\nSTOP; inspect input / mapping", shape=note, color="#DC2626", fillcolor="#FEF2F2", fontsize=10];
+ source -> ingest -> inspect -> prepare -> validate -> store -> lineage -> rerun;
+ ingest -> fail1 [color="#DC2626", style=dashed, constraint=false];
+ validate -> fail2 [color="#DC2626", style=dashed, constraint=false];
+ {rank=same; ingest; fail1}
+ {rank=same; validate; fail2}
+}
